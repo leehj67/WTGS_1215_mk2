@@ -380,6 +380,8 @@
 "Assets/2.Script/Dual_scene_loader.cs"
 "Assets/2.Script/Fader.cs"
 "Assets/2.Script/Scene_change.cs"
+"Assets/popscript_controller.cs"
+"Assets/popuihoverscript.cs"
 "Assets/Scripts/bannermove_anime.cs"
 "Assets/Scripts/bannermovingscript.cs"
 "Assets/Scripts/banner_anime.cs"
@@ -435,6 +437,7 @@
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
+"Assets/ui_callup_down.cs"
 -langversion:9.0
 
 /deterministic

@@ -1,0 +1,555 @@
+Using pre-set license
+Built from '2021.3/release' branch; Version is '2021.3.12f1 (8af3c3e441b1) revision 9106371'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'ko' Physical Memory: 16225 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/MSI/Documents/GitHub/WTGS_1215_mk2/My project
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+62898
+Successfully changed project path to: C:/Users/MSI/Documents/GitHub/WTGS_1215_mk2/My project
+C:/Users/MSI/Documents/GitHub/WTGS_1215_mk2/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 158.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.12f1 (8af3c3e441b1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/MSI/Documents/GitHub/WTGS_1215_mk2/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2191)
+    Vendor:   NVIDIA
+    VRAM:     5991 MB
+    Driver:   30.0.14.7141
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56396
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004558 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 98.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.995 seconds
+Domain Reload Profiling:
+	ReloadAssembly (996ms)
+		BeginReloadAssembly (78ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (663ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (277ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (298ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (98ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (136ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005294 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\MSI\Documents\GitHub\WTGS_1215_mk2\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\MSI\Documents\GitHub\WTGS_1215_mk2\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.371 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1372ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1127ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (344ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (569ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (121ms)
+				ProcessInitializeOnLoadAttributes (399ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3479 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (113.9 KB). Loaded Objects now: 3937.
+Memory consumption went from 123.3 MB to 123.1 MB.
+Total: 4.128000 ms (FindLiveObjects: 0.422500 ms CreateObjectMapping: 0.265300 ms MarkObjects: 3.316500 ms  DeleteObjects: 0.122100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 37368.404579 seconds.
+  path: Assets/9.Example image/풍력발전_메인시안.jpg
+  artifactKey: Guid(0feec71f20c09d640b974e091f20945f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9.Example image/풍력발전_메인시안.jpg using Guid(0feec71f20c09d640b974e091f20945f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2a7203b7dd2b1a950ed740edfb6b72b') in 0.126251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/9.Example image/풍력발전_학습시안.jpg
+  artifactKey: Guid(12b73ffa673b8674aaf5615e35cd8f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9.Example image/풍력발전_학습시안.jpg using Guid(12b73ffa673b8674aaf5615e35cd8f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc9a602678f1f0b25668c8da4b19d781') in 0.027775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/9.Example image/풍력발전_실습시안.jpg
+  artifactKey: Guid(9075c98b0a54fed4fac0948aaf615931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/9.Example image/풍력발전_실습시안.jpg using Guid(9075c98b0a54fed4fac0948aaf615931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f73bd651352c79a01896f24551f96f29') in 0.025797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.881806 seconds.
+  path: Assets/Sprite/공용/OFF.png
+  artifactKey: Guid(712d31e98593af748bb8446521325d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/공용/OFF.png using Guid(712d31e98593af748bb8446521325d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aabe145c200494d36623051bcf8dfea') in 0.094816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprite/공용/Rect1.png
+  artifactKey: Guid(7bf89518ab6132d4597ff949b8d1179e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/공용/Rect1.png using Guid(7bf89518ab6132d4597ff949b8d1179e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11a3b0a9e43059e8c87de6334ec22acf') in 0.028225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Sprite/공용/손_공구drag.png
+  artifactKey: Guid(04cf60800af93ae42b3805938030f6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/공용/손_공구drag.png using Guid(04cf60800af93ae42b3805938030f6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '084474d0735f58af78f7e7104a31842f') in 0.025886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprite/공용/벡터 고급 개체 복사.png
+  artifactKey: Guid(fb4dfadb9ea67744b8431822e309d7d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/공용/벡터 고급 개체 복사.png using Guid(fb4dfadb9ea67744b8431822e309d7d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93b560cec8495b55f015328a5ef72411') in 0.026457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.935787 seconds.
+  path: Assets/Sprite/훈련보조도구/훈련보조도구패널/Close.png
+  artifactKey: Guid(bc3a451c6055d9e4a9cddc32812d82b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/훈련보조도구/훈련보조도구패널/Close.png using Guid(bc3a451c6055d9e4a9cddc32812d82b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5326a52d8005ed6cf3251984789cf01') in 0.020004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprite/훈련보조도구/훈련보조도구패널/UI_button.png
+  artifactKey: Guid(287a57420436cc049a46c59f7e36211b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/훈련보조도구/훈련보조도구패널/UI_button.png using Guid(287a57420436cc049a46c59f7e36211b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46e74c000ca897ee9a659f0784aedb3b') in 0.033918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Sprite/훈련보조도구/훈련보조도구패널/Index.png
+  artifactKey: Guid(68f1864cf22224e4a8b6bdaaa7302d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/훈련보조도구/훈련보조도구패널/Index.png using Guid(68f1864cf22224e4a8b6bdaaa7302d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeb7dae30643fa30ad3e385994df7937') in 0.026777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Sprite/훈련보조도구/훈련보조도구패널/New Material.mat
+  artifactKey: Guid(2e955de9ee24c3c4e91d4a1948f95b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/훈련보조도구/훈련보조도구패널/New Material.mat using Guid(2e955de9ee24c3c4e91d4a1948f95b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baec795823caa1f6cc2275fc359d25b6') in 0.297981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.400454 seconds.
+  path: Assets/Sprite/Refer/1_로딩/로딩바_배경.png
+  artifactKey: Guid(724dae027e5c70b48bb82cd803faf8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Refer/1_로딩/로딩바_배경.png using Guid(724dae027e5c70b48bb82cd803faf8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '658bbf7e2b806ef54128424795bc1934') in 0.025277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprite/Refer/1_로딩/버튼_시작_아이콘.png
+  artifactKey: Guid(5942b8a25b6212944a11b98784d0650c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Refer/1_로딩/버튼_시작_아이콘.png using Guid(5942b8a25b6212944a11b98784d0650c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b425742b1ba55f4a744a47b22416218') in 0.019401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.476388 seconds.
+  path: Assets/Sprite/Refer/2_메인화면/t_N.png
+  artifactKey: Guid(9d982b0feb4a6b5409536333c5746495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Refer/2_메인화면/t_N.png using Guid(9d982b0feb4a6b5409536333c5746495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce5aa9f1d3d3d16b8c4a394f70e5e5c3') in 0.020518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprite/Refer/2_메인화면/t_반.png
+  artifactKey: Guid(a7328f8af96cb9a4ab4e51f5c767d7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Refer/2_메인화면/t_반.png using Guid(a7328f8af96cb9a4ab4e51f5c767d7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e023f7ead7844af5a720ab7ffa5b6a') in 0.024098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprite/Refer/2_메인화면/t_가.png
+  artifactKey: Guid(91e7182b43566af47b76b9347edcb7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Refer/2_메인화면/t_가.png using Guid(91e7182b43566af47b76b9347edcb7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8750c58cf2e6afdde62761bbc96d39a0') in 0.023417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Sprite/Refer/2_메인화면/배경_도면3.png
+  artifactKey: Guid(d7a351b39d8d5b7428790ec859df7fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Refer/2_메인화면/배경_도면3.png using Guid(d7a351b39d8d5b7428790ec859df7fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '399f252192e40c22f596a4f3955c371b') in 0.021692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Sprite/Refer/2_메인화면/주메뉴_List_Over.png
+  artifactKey: Guid(e1d55a4210ce5a04fb7978970dbe81db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Refer/2_메인화면/주메뉴_List_Over.png using Guid(e1d55a4210ce5a04fb7978970dbe81db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25fa45c30891185259a1668184ff98ac') in 0.026506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Sprite/Refer/2_메인화면/t_밍.png
+  artifactKey: Guid(78867f7e04e40fc40ac33484e24960c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Refer/2_메인화면/t_밍.png using Guid(78867f7e04e40fc40ac33484e24960c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03fd5111557e378e89ecae5a7719b39f') in 0.029979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Sprite/Refer/2_메인화면/주메뉴_Home_Press.png
+  artifactKey: Guid(20f6048c53809284f8819965744c3384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Refer/2_메인화면/주메뉴_Home_Press.png using Guid(20f6048c53809284f8819965744c3384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd8aab24c25fe2daeb3f5628bd792c5') in 0.023696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Sprite/Refer/2_메인화면/t_전체.png
+  artifactKey: Guid(92f852ee9a21ebe43bbbe824bfa45cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Refer/2_메인화면/t_전체.png using Guid(92f852ee9a21ebe43bbbe824bfa45cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea0b7a86d5194c7053b0c521ac39ff88') in 0.028483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sprite/Refer/2_메인화면/버튼_시작_Press.png
+  artifactKey: Guid(67271591839bd1f4db0fd2368a4ec33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Refer/2_메인화면/버튼_시작_Press.png using Guid(67271591839bd1f4db0fd2368a4ec33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6fbc1872e8df18aa9c0fda9111cf8be') in 0.023389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprite/Refer/2_메인화면/t_로.png
+  artifactKey: Guid(09ed9e48d86b0e34589300d23aa533c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Refer/2_메인화면/t_로.png using Guid(09ed9e48d86b0e34589300d23aa533c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbc34a4e76319dd9248fdd3b60ad2d36') in 0.026929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprite/Refer/2_메인화면/버튼_시작_On.png
+  artifactKey: Guid(62cb5948351879e4682f51a1b8cbc0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Refer/2_메인화면/버튼_시작_On.png using Guid(62cb5948351879e4682f51a1b8cbc0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a5a860027c192ac9284e6b7fd02a8d4') in 0.029660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.212278 seconds.
+  path: Assets/Sprite/Refer/2_메인화면/주메뉴_배경.png
+  artifactKey: Guid(23fec3957f14adc4f9ce7d5ed0ff6ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Refer/2_메인화면/주메뉴_배경.png using Guid(23fec3957f14adc4f9ce7d5ed0ff6ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e9b41282e10792a322a031bbe2435d') in 0.019412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprite/Refer/2_메인화면/타이틀.png
+  artifactKey: Guid(dea27e32767394e4e90f74de7b94a963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Refer/2_메인화면/타이틀.png using Guid(dea27e32767394e4e90f74de7b94a963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2d1af7d7e38ccd57382bd72d3b422bc') in 0.021937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.169874 seconds.
+  path: Assets/Sprite/Refer/3_훈련화면/배경_스크립트.png
+  artifactKey: Guid(3b2ab243028fb9a4593a6aa46a044837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Refer/3_훈련화면/배경_스크립트.png using Guid(3b2ab243028fb9a4593a6aa46a044837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31315eb4c438213479a73f2ef813a7be') in 0.045067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprite/Refer/3_훈련화면/배경_콘텐츠_타이틀.png
+  artifactKey: Guid(cb3482b45d4967d4a8a0c494d255b552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Refer/3_훈련화면/배경_콘텐츠_타이틀.png using Guid(cb3482b45d4967d4a8a0c494d255b552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '695f8c19e8e84b14b83aecd120829345') in 0.027232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Sprite/Refer/3_훈련화면/스크립트_버튼_다음.png
+  artifactKey: Guid(07653a3cd9722c847a97bfadaabf203a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Refer/3_훈련화면/스크립트_버튼_다음.png using Guid(07653a3cd9722c847a97bfadaabf203a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27f35fb4538ed0b4327b13df7f691060') in 0.027994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprite/Refer/3_훈련화면/버튼_고정_Over.png
+  artifactKey: Guid(a466dc5cca02a0c4badceb39e5af91b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Refer/3_훈련화면/버튼_고정_Over.png using Guid(a466dc5cca02a0c4badceb39e5af91b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15204a273ee5fbdcabd8f1b9d0722dec') in 0.031050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprite/Refer/3_훈련화면/스크립트_버튼_이전_Press.png
+  artifactKey: Guid(fd34e6f717f5e5d4581cc801086e315a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Refer/3_훈련화면/스크립트_버튼_이전_Press.png using Guid(fd34e6f717f5e5d4581cc801086e315a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c7487cabb727905215d3bc8cfeb1aef') in 0.032097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprite/Refer/3_훈련화면/스크립트_버튼_다음_Press.png
+  artifactKey: Guid(15a976169c27d534c8ed3102c39e9c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Refer/3_훈련화면/스크립트_버튼_다음_Press.png using Guid(15a976169c27d534c8ed3102c39e9c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98d3854b31cc433737f19318ab144b9b') in 0.031244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Sprite/Refer/3_훈련화면/스크립트_버튼_이전.png
+  artifactKey: Guid(46101f87867027642bfaad01ec2566b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Refer/3_훈련화면/스크립트_버튼_이전.png using Guid(46101f87867027642bfaad01ec2566b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '626ce1bb97a38aab23b88fc3f1a447c8') in 0.029694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprite/Refer/3_훈련화면/버튼_자동_Press.png
+  artifactKey: Guid(e641463da9e00424eb36987fcc390379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Refer/3_훈련화면/버튼_자동_Press.png using Guid(e641463da9e00424eb36987fcc390379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7da72e067e9000e7f487046a5ec5b52c') in 0.022269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Sprite/Refer/3_훈련화면/버튼_자동_Over.png
+  artifactKey: Guid(9ed9664fed7ac504d9ab5df1f1d9042e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Refer/3_훈련화면/버튼_자동_Over.png using Guid(9ed9664fed7ac504d9ab5df1f1d9042e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b03a30326c9193424200dc4f8d9e62f8') in 0.030667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.481160 seconds.
+  path: Assets/Sprite/Refer/4_메인화면이동_선택_팝업/버튼_Press.png
+  artifactKey: Guid(b4dde047e6cdbd04e9803e9f9e69147e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Refer/4_메인화면이동_선택_팝업/버튼_Press.png using Guid(b4dde047e6cdbd04e9803e9f9e69147e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4814d324ab1726f41648318e2b2bd37') in 0.027624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprite/Refer/4_메인화면이동_선택_팝업/타이틀_배경.png
+  artifactKey: Guid(03b4f6c5981771549bb99a99d257dafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Refer/4_메인화면이동_선택_팝업/타이틀_배경.png using Guid(03b4f6c5981771549bb99a99d257dafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4ba26be141f157a6ea731afc57b658a') in 0.024416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.919422 seconds.
+  path: Assets/Sprite/Refer/5_전체메뉴/메뉴_Press.png
+  artifactKey: Guid(74fdcf8156b5c3744abef70df06c9623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Refer/5_전체메뉴/메뉴_Press.png using Guid(74fdcf8156b5c3744abef70df06c9623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '154557dce967213992a371fb85b38a29') in 0.032327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprite/Refer/5_전체메뉴/서브메뉴_선택_배경.png
+  artifactKey: Guid(8762c89702480de458f07df86a437a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Refer/5_전체메뉴/서브메뉴_선택_배경.png using Guid(8762c89702480de458f07df86a437a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc927530a444788606358dff39f81601') in 0.030977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprite/Refer/5_전체메뉴/타이틀_배경.png
+  artifactKey: Guid(6899e8c61678b464eb95252f85421128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Refer/5_전체메뉴/타이틀_배경.png using Guid(6899e8c61678b464eb95252f85421128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00bbe2dc056c343783aef285b1e9e30') in 0.042901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprite/Refer/5_전체메뉴/버튼_닫기_Over.png
+  artifactKey: Guid(9f256dd3974eef14699a811cf2ff1c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Refer/5_전체메뉴/버튼_닫기_Over.png using Guid(9f256dd3974eef14699a811cf2ff1c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4162065d60043fc9364a01164c46ab5a') in 0.029563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Sprite/Refer/5_전체메뉴/설명_하단_배경.png
+  artifactKey: Guid(c72caa80a3765524a81cfef5cdb6f4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Refer/5_전체메뉴/설명_하단_배경.png using Guid(c72caa80a3765524a81cfef5cdb6f4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd47901475f52b590004540450d6f0ac') in 0.042318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprite/Refer/5_전체메뉴/서브메뉴_선택_Press_배경.png
+  artifactKey: Guid(1058c1e79d1224146b1e68fbd75d2898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Refer/5_전체메뉴/서브메뉴_선택_Press_배경.png using Guid(1058c1e79d1224146b1e68fbd75d2898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a6b6989ef0739ec77a0602e21d4771') in 0.027185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprite/Refer/5_전체메뉴/서브메뉴_전체_배경.png
+  artifactKey: Guid(7eb2a4ad55f01f54ea3cd75bbfea671d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Refer/5_전체메뉴/서브메뉴_전체_배경.png using Guid(7eb2a4ad55f01f54ea3cd75bbfea671d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f42a1937a27140333eefade8fff4ec12') in 0.030699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.197525 seconds.
+  path: Assets/Sprite/Refer/6_환경설정/다이얼_배경.png
+  artifactKey: Guid(b6792b04e881b2e4dbc3ee36c552d99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Refer/6_환경설정/다이얼_배경.png using Guid(b6792b04e881b2e4dbc3ee36c552d99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e68fe4e9da15a91a63327ab399aa5634') in 0.034538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprite/Refer/6_환경설정/아이콘_볼륨_Press.png
+  artifactKey: Guid(e8dc093d8fa7d6843ac4067c183ce9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Refer/6_환경설정/아이콘_볼륨_Press.png using Guid(e8dc093d8fa7d6843ac4067c183ce9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b9ba360d0115ee47858e3a6d6db0b5') in 0.024246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprite/Refer/6_환경설정/다이얼_배경_그림자.png
+  artifactKey: Guid(bdc5e303fa97a944eb452123cc69cd96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Refer/6_환경설정/다이얼_배경_그림자.png using Guid(bdc5e303fa97a944eb452123cc69cd96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a331b3719a962cbfd168eb396583e39') in 0.030209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprite/Refer/6_환경설정/배경_타이틀.png
+  artifactKey: Guid(19256088e54d8c549b6f67a766d4889a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Refer/6_환경설정/배경_타이틀.png using Guid(19256088e54d8c549b6f67a766d4889a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2703829d7f94b68fffb380ff4ef8548e') in 0.027939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprite/Refer/6_환경설정/소리_슬라이드_배경.png
+  artifactKey: Guid(87880e856f6217c4ab82ba63fb59b27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Refer/6_환경설정/소리_슬라이드_배경.png using Guid(87880e856f6217c4ab82ba63fb59b27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9955cd19d40fa07f608230d050aee3bb') in 0.030395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprite/Refer/6_환경설정/전체화면모드_스위치.png
+  artifactKey: Guid(8b5ea3264a26f8840bbe590c1207ab46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Refer/6_환경설정/전체화면모드_스위치.png using Guid(8b5ea3264a26f8840bbe590c1207ab46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e5226b04d97cb2fbff59fec0fbac70a') in 0.021110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprite/Refer/6_환경설정/버튼_닫기_Over.png
+  artifactKey: Guid(93a7eeac1c5f4ea4c9cdbd2b83ade31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Refer/6_환경설정/버튼_닫기_Over.png using Guid(93a7eeac1c5f4ea4c9cdbd2b83ade31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c65dffc7887620c31bf2dd462308f82') in 0.018778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sprite/Refer/6_환경설정/아이콘_음소거_Over.png
+  artifactKey: Guid(b6dcbecfea8897a4bb297e48bbed6168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Refer/6_환경설정/아이콘_음소거_Over.png using Guid(b6dcbecfea8897a4bb297e48bbed6168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd23159e4536c0dab8f3d456d55132df') in 0.028511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Sprite/Refer/6_환경설정/배경_항목.png
+  artifactKey: Guid(aa981af8f26c5ca45a000416492f0005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Refer/6_환경설정/배경_항목.png using Guid(aa981af8f26c5ca45a000416492f0005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30a00998353d1f4c07e0ef49595e5bbb') in 0.021670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.982134 seconds.
+  path: Assets/Sprite/Refer/7_프로그램종료/버튼_Press.png
+  artifactKey: Guid(ca1f58da38fe6b441bdc040fbfedd2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Refer/7_프로그램종료/버튼_Press.png using Guid(ca1f58da38fe6b441bdc040fbfedd2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0b88e0ecb60e7e0fd9f35cb88e4c05e') in 0.032475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Sprite/Refer/7_프로그램종료/타이틀_배경.png
+  artifactKey: Guid(6e23a386f1b76bb4595ae1f2110a933e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Refer/7_프로그램종료/타이틀_배경.png using Guid(6e23a386f1b76bb4595ae1f2110a933e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e59abad6549ca6c8981acae1f31d956c') in 0.027929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.140440 seconds.
+  path: Assets/Sprite/Refer/8_타이틀화면/배경.png
+  artifactKey: Guid(15d0701585afd8d40ac81f450d37e032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Refer/8_타이틀화면/배경.png using Guid(15d0701585afd8d40ac81f450d37e032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ef2a0da355a3b6e5d969f1b458a65c') in 0.040441 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005965 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\MSI\Documents\GitHub\WTGS_1215_mk2\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\MSI\Documents\GitHub\WTGS_1215_mk2\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.390 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1391ms)
+		BeginReloadAssembly (156ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1112ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (393ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (485ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (312ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3461 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (80.4 KB). Loaded Objects now: 4051.
+Memory consumption went from 126.6 MB to 126.5 MB.
+Total: 4.070300 ms (FindLiveObjects: 0.298800 ms CreateObjectMapping: 0.180700 ms MarkObjects: 3.414200 ms  DeleteObjects: 0.175100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
